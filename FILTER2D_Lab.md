@@ -55,7 +55,7 @@ Please also note that although the entire tutorial is performed on an F1 instanc
 	* Setting the **Filter2DKernel** function to be a custom hardware function (also referred to as kernel).
 	* Setting command line arguments to be passed to the application when it is executed.	
 
-	Most of this information is displayed in the **SDX Project Settings** window which is prominently displayed in the center of the GUI. It indicates the project name (**Filter2D**), the selected platform (**AWS-VU9-F1**) and the FPGA binary container (**binary_container_1**) with the hardware function (**Filter2DKernel**).  
+	Most of this information is displayed in the **SDx Project Settings** window which is prominently displayed in the center of the GUI. It indicates the project name (**Filter2D**), the selected platform (**AWS-VU9-F1**) and the FPGA binary container (**binary_container_1**) with the hardware function (**Filter2DKernel**).  
  
     ![](./images/filter2d_lab/SDxWindows.PNG)
 
