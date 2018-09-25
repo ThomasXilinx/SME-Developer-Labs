@@ -287,6 +287,8 @@ The kernel is the main bottleneck in our application. By putting more kernels in
 
 	![](./images/filter2d_lab/Timeline_3kernel_1img.PNG)	
 
+	_Note: CPU load may impact how OpenCL APIs scheduled, impacting the emulation results and the timeline you will observe._
+	
 	- Observe that we now have 3 kernels instances executing in parallel
 	- Instead of processing Y, U and V planes sequentially, the application is now processing them at the same time
 	- The short offset between the start of each kernel run is due to the sequential transfer of input data from the host to the FPGA
